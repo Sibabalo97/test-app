@@ -35,7 +35,7 @@ const Register = () => {
           onChange={(e) => setUsername(e.target.value)}
         />
 
-        <label>Email</label>
+        <label>Emails</label>
         <input
           type="email"
           placeholder="Enter your email"
