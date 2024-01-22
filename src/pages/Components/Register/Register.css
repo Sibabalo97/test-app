@@ -1,0 +1,64 @@
+/* frontend/src/components/Register/Register.css */
+
+.register-container {
+  width: 300px;
+  padding: 16px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+ }
+ 
+ .google-button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+ 
+ form {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ label {
+  margin-top: 10px;
+ }
+ 
+ input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+ }
+ 
+ .remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+ }
+ 
+ button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+ 
+ p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+ }
+ 
+ .login-link {
+  color: #007bff;
+  cursor: pointer;
+ }
